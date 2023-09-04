@@ -1,0 +1,10 @@
+version: '3'
+services:
+  my-node-app:
+    build: .
+    ports:
+      - "3000:3000"
+  elastic:
+    build: .
+    ports: 
+     - "4000:4000"
